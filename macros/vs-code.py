@@ -24,7 +24,7 @@ app = {                # REQUIRED dict, must be named 'app'
         # git commit
         (0x202000, 'git comm', ['git commit', Keycode.ENTER]),
         # git push
-        (0x202000, 'git comm', ['git push', Keycode.ENTER]),
+        (0x202000, 'git push', ['git push', Keycode.ENTER]),
 
         # 3rd row ----------
         # select all occuring words command + shift + l
