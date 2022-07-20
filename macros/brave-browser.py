@@ -23,11 +23,11 @@ app = {                    # REQUIRED dict, must be named 'app'
         (0x000040, 'Home', [Keycode.COMMAND, 'H']),
         (0x000040, 'Private', [Keycode.COMMAND, 'N']),
         # 4th row ----------
-        (0x000000, 'Github', [Keycode.COMMAND, 'n', -Keycode.COMMAND,
-                              'www.github.com\n']),   # github in new window
-        (0x800000, 'Localhost:3000', [Keycode.COMMAND, 'n', -Keycode.COMMAND,
-                                      'localhost:3000\n']),   # localhost:3000 in new window
-        (0x101010, 'fb', [Keycode.COMMAND, 'n', -Keycode.COMMAND,
+        (0x000000, 'Github', [Keycode.COMMAND, 't', -Keycode.COMMAND,
+                              'www.github.com\n']),   # github in new tab
+        (0x800000, 'Localhost:3000', [Keycode.COMMAND, 't', -Keycode.COMMAND,
+                                      'localhost:3000\n']),  # localhost:3000 in new tab
+        (0x101010, 'fb', [Keycode.COMMAND, 't', -Keycode.COMMAND,
                           'www.fb.com\n']),  # fb
         # Encoder button ---
         (0x000000, '', [Keycode.COMMAND, 'w'])  # Close window/tab
