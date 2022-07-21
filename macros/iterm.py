@@ -13,7 +13,7 @@ app = {                # REQUIRED dict, must be named 'app'
         # 1st row ----------
         # open terminal
         (0x202000, 'open', [Keycode.SHIFT, Keycode.OPTION, Keycode.CONTROL,
-         Keycode.F12, -Keycode.SHIFT, -Keycode.OPTION, -Keycode.CONTROL]),
+                            Keycode.F12, -Keycode.SHIFT, -Keycode.OPTION, -Keycode.CONTROL]),
         # new pane
         (0x202000, 'new p', [Keycode.COMMAND, 'd']),
         # new tab
