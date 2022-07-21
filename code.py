@@ -3,6 +3,8 @@
 # SPDX-License-Identifier: MIT
 
 """
+Vaughn's macropad
+
 A macro/hotkey program for Adafruit MACROPAD. Macro setups are stored in the
 /macros folder (configurable below), load up just the ones you're likely to
 use. Plug into computer's USB port, use dial to select an application macro
